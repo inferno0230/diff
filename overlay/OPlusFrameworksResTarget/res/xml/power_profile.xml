@@ -4,6 +4,7 @@
      SPDX-License-Identifier: BSD-3-Clause
 -->
 <device name="Android">
+
   <!-- Most values are the incremental current used by a feature,
        in mA (measured at nominal voltage).
        The default values are deliberately incorrect dummy values.
@@ -39,6 +40,7 @@
        radio.active, radio.scanning, and radio.on. -->
   <item name="radio.active">161.5</item> <!-- ~200mA -->
   <item name="radio.scanning">133.5</item> <!-- cellular radio scanning for signal, ~10mA -->
+
   <!-- Current consumed by the radio at different signal strengths, when paging -->
   <array name="radio.on"> <!-- Strength 0 to BINS-1 delete 1 line-->
       <value>1.2</value> <!-- ~2mA -->
@@ -209,6 +211,7 @@
 
   <!-- Current when CPU is awake -->
   <item name="cpu.awake">15.68</item>
+
   <!-- Current when CPU is idle -->
   <item name="cpu.idle">6.5</item>
 
@@ -224,15 +227,19 @@
   <!-- Wifi related values. -->
   <!-- Idle Receive current for wifi radio in mA. 0 by default-->
   <item name="wifi.controller.idle">1.4</item>
+
   <!-- Rx current for wifi radio in mA. 0 by default-->
   <item name="wifi.controller.rx">177</item>
+
   <!-- Tx current for wifi radio in mA. 0 by default-->
   <item name="wifi.controller.tx">269</item>
+
   <!-- Current at each of the wifi Tx levels in mA. The number of tx levels varies per device
        and is available only of wifi chipsets which support the tx level reporting. Use
         wifi.tx for other chipsets. none by default -->
   <array name="wifi.controller.tx_levels"> <!-- mA -->
   </array>
+
   <!-- Operating volatage for wifi radio in mV. 0 by default-->
   <item name="wifi.controller.voltage">3300</item>
 

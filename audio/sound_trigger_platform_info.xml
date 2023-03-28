@@ -59,9 +59,6 @@
         <param concurrent_voip_call="false" />
         <param concurrent_voice_call="false" />
         <param sva_transparent_disabled="true" />
-        <!--#alvin.zhang@MULTIMEDIA.AUDIODRIVER.FEATURE, 2020/12/16, Add for OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH-->
-        <param va_mic_clk_switch="true"/>
-        <!--#alvin.zhang@MULTIMEDIA.AUDIODRIVER.FEATURE, 2020/12/16, Add for OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH end-->
     </common_config>
     <acdb_ids>
         <param DEVICE_HANDSET_MIC_APE="100" />

@@ -1,7 +1,7 @@
-# All proprietary files from this list, unless pinned and noted otherwise,
-# are from OnePlus 9 Pro (LE2125_11.F.20).
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from OnePlus 9 (LE2115_11.F.20).
 
-# ACDB
+# ACDBs
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/Bluetooth_cal.acdb
 odm/etc/acdbdata/General_cal.acdb
@@ -11,10 +11,10 @@ odm/etc/acdbdata/Hdmi_cal.acdb
 odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
-# Audio firmware
+# Audio Firmware
 odm/firmware/tfa98xx.cnt
 
-# Audio lvimfs params
+# Audio LVIMFS Params
 odm/etc/lvimfs_params/LVACFS_Configuration.txt
 odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt
@@ -42,6 +42,11 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
+# Bluetooth Firmware
+odm/etc/bt/hpnv10.bin
+odm/etc/bt/hpnv10_1.bin
+odm/etc/bt/second_rf.conf
+
 # Camera
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/oplus_camera_aps_config
@@ -49,46 +54,17 @@ odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/calibrationOutput_uw.bin
 odm/etc/camera/calibrationOutput_uw_686.bin
-odm/etc/camera/calibrationOutput_wt.bin
 odm/etc/camera/engineer_camera_config
 odm/etc/camera/settings_fdc.txt
-odm/etc/init/calibrationOutput_wt.rc
-odm/lib64/camera/com.qti.sensor.imx789.lemonade.so
-odm/lib64/camera/com.qti.sensor.ov08a10.lemonade.so
-odm/lib64/camera/com.qti.sensormodule.lemonadep.holitech_gc02m1b.bin
-odm/lib64/camera/com.qti.sensormodule.lemonadep.qtech_ov08a10.bin
-odm/lib64/camera/com.qti.sensormodule.lemonadep.semco_imx789.bin
-odm/lib64/camera/com.qti.sensormodule.lemonadep.semco_imx789_MP.bin
-odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766.bin
-odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766_MP.bin
-odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766_ak7375c.bin
-odm/lib64/camera/com.qti.sensormodule.lemonadep.truly_imx471.bin
-odm/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin
-odm/lib64/camera/com.qti.tuned.qtech_ov08a10.bin
-odm/lib64/camera/com.qti.tuned.semco_imx789.bin
-
-# Iris
-odm/etc/inparm/iris5/inParm1.txt
-odm/etc/inparm/iris5/inParm10.txt
-odm/etc/inparm/iris5/inParm11.txt
-odm/etc/inparm/iris5/inParm12.txt
-odm/etc/inparm/iris5/inParm13.txt
-odm/etc/inparm/iris5/inParm14.txt
-odm/etc/inparm/iris5/inParm15.txt
-odm/etc/inparm/iris5/inParm16.txt
-odm/etc/inparm/iris5/inParm17.txt
-odm/etc/inparm/iris5/inParm18.txt
-odm/etc/inparm/iris5/inParm2.txt
-odm/etc/inparm/iris5/inParm3.txt
-odm/etc/inparm/iris5/inParm4.txt
-odm/etc/inparm/iris5/inParm5.txt
-odm/etc/inparm/iris5/inParm6.txt
-odm/etc/inparm/iris5/inParm7.txt
-odm/etc/inparm/iris5/inParm8.txt
-odm/etc/inparm/iris5/inParm9.txt
-odm/vendor/firmware/iris5.fw
-odm/vendor/firmware/iris5_ccf1.fw
-odm/vendor/firmware/iris5_ccf2.fw
+odm/lib64/camera/com.qti.sensor.imx689.lemonade.so
+odm/lib64/camera/com.qti.sensormodule.lemonade.semco_imx689.bin
+odm/lib64/camera/com.qti.sensormodule.lemonade.shine_gc02m1b.bin
+odm/lib64/camera/com.qti.sensormodule.lemonade.sunny_imx766.bin
+odm/lib64/camera/com.qti.sensormodule.lemonade.sunny_imx766_MP.bin
+odm/lib64/camera/com.qti.sensormodule.lemonade.sunny_imx766_ak7375c.bin
+odm/lib64/camera/com.qti.sensormodule.lemonade.truly_imx471.bin
+odm/lib64/camera/com.qti.tuned.semco_imx689.bin
+odm/lib64/camera/com.qti.tuned.shine_gc02m1b.bin
 
 # Sensors
 odm/etc/sensor/config/lahaina_aw9610x_0.json
@@ -97,7 +73,7 @@ odm/etc/sensor/config/lahaina_bmp380.json
 odm/etc/sensor/config/lahaina_lps22hb.json
 odm/etc/sensor/config/lahaina_qrd_ak0991x.json
 odm/etc/sensor/config/lahaina_qrd_alsps.json
-odm/etc/sensor/config/lahaina_qrd_bmi26x.json
+odm/etc/sensor/config/lahaina_qrd_bmi16x.json
 odm/etc/sensor/config/lahaina_qrd_cct_rear.json
 odm/etc/sensor/config/lahaina_qrd_icm4x6xx.json
 odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json
